@@ -5,6 +5,7 @@
 
 **Using the `import_lab_key` script for AWS**
 * `./import_lab_key ~/.ssh/aws.pub`
+* this will import the key to your aws
 
 **To run the included terraform (to create the two EC2 instances)**
 * go to the `terraform` directory first
@@ -13,7 +14,7 @@
 * `terraform plan` - to do a dry run
 * `terraform apply` - to provision
 
-**Check and Run the `playbook.yml` after completion**
+**Check and Run the `playbook.yml` after completion in the `/ansible` directory**
 * `ansible-playbook --syntax-check playbook.yml` - to valide the playbook
 * `ansible-playbook playbook.yml` - to run the the playbook
 
